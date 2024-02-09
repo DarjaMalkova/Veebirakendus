@@ -1,0 +1,179 @@
+table{
+	width: 40%;
+	height: 200px;
+	border: 1pt solid orange;
+}
+td{
+	border: 1pt solid orange;
+	text-align: center;
+}
+#tabel1 tr:nth-child(1) td:nth-child(1){
+	background-color: blue;
+	
+}
+
+#tabel1 tr:nth-child(1) td:nth-child(2){
+	background-color: green;
+}
+
+#tabel1 tr:nth-child(2) td:nth-child(1){
+	background-color: pink;
+}
+
+#tabel1 tr:nth-child(2) td:nth-child(2){
+	background-color: yellow;
+}
+
+#tabel1 tr:nth-child(1) td:nth-child(3){
+	background-color: orange;
+}
+
+#tabel1 tr:nth-child(2) td:nth-child(3){
+	background-color: red;
+}
+
+#tabel2 tr:nth-child(1) td:nth-child(1){
+	background-color: silver
+}
+
+#tabel2 tr:nth-child(1) td:nth-child(2){
+	background-color: #660066
+}
+
+#tabel2 tr:nth-child(1) td:nth-child(3){
+	background-color: olive
+}
+
+#tabel2 tr:nth-child(2) td:nth-child(2){
+	background-color: gray
+}
+
+#tabel2 tr:nth-child(2) td:nth-child(4){
+	background-color: 
+}
+
+#eesti{
+	width: 330px;
+	height: 210px;
+	border: 1pt solid grey;
+	border-spacing: 0;
+}
+
+#eesti td{
+	border:0;
+}
+
+#eesti tr:nth-child(1) {
+	background-color: blue;
+}
+
+#eesti tr:nth-child(2) {
+	background-color: black;
+}
+
+#eesti tr:nth-child(3) {
+	background-color: white;
+}
+
+#soome{
+	width: 330px;
+	height: 210px;
+	border: 1pt solid grey;
+	border-spacing: 0;
+}
+
+#soome td{
+	border:0;
+}
+
+#soome tr:nth-child(1) td:nth-child(1),
+#soome tr:nth-child(3) td:nth-child(1) { 
+	background-color: white;
+	width:25%;
+}
+
+#soome tr:nth-child(1) td:nth-child(2),
+#soome tr:nth-child(3) td:nth-child(2) { 
+	background-color: blue;
+	width:15%;
+}	
+#soome tr:nth-child(2) {
+	background-color: blue;
+	height:20%;
+}
+
+#soome tr:nth-child(1) td:nth-child(3),
+#soome tr:nth-child(3) td:nth-child(3) { 
+	background-color: white;
+}
+
+#palett tr:nth-child(1) td:nth-child(1){
+	background-color: #66ff8c
+}
+
+#palett tr:nth-child(2) td:nth-child(2){
+	background-color: #66ff6e
+}
+
+#palett tr:nth-child(3) td:nth-child(1){
+	background-color: #66ff66
+}
+
+#palett tr:nth-child(3) td:nth-child(2){
+	background-color: #66ffcc
+}
+
+#denmark{
+	width: 330px;
+	height: 210px;
+	border: 1pt solid grey;
+	border-spacing: 0;
+}
+
+#denmark td{
+	border:0;
+}
+
+#denmark tr:nth-child(1) td:nth-child(1),
+#denmark tr:nth-child(3) td:nth-child(1) { 
+	background-color: red;
+	width:25%;
+}
+
+#denmark tr:nth-child(1) td:nth-child(2),
+#denmark tr:nth-child(3) td:nth-child(2) { 
+	background-color: white;
+	width:15%;
+}	
+#denmark tr:nth-child(2) {
+	background-color: white;
+	height:20%;
+}
+
+#denmark tr:nth-child(1) td:nth-child(3),
+#denmark tr:nth-child(3) td:nth-child(3) { 
+	background-color: red;
+}
+
+#saksamaa{
+	width: 330px;
+	height: 210px;
+	border: 1pt solid grey;
+	border-spacing: 0;
+}
+
+#saksamaa td{
+	border:0;
+}
+
+#saksamaa tr:nth-child(1) {
+	background-color: black;
+}
+
+#saksamaa tr:nth-child(2) {
+	background-color: red;
+}
+
+#saksamaa tr:nth-child(3) {
+	background-color: orange;
+}
